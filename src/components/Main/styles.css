@@ -1,0 +1,55 @@
+.text {
+}
+
+.name {
+  font-weight: 800;
+  font-size: 50px;
+}
+.char {
+  display: inline-block;
+  animation: bounceIn 1.5s;
+  /* animation-delay: 1s; */
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.char:hover {
+  display: inline-block;
+  /* animation: jello 1s, bounceIn 1s; */
+  animation: jello 1s;
+  color: #25f4ee;
+}
+
+.j {
+  display: inline-block;
+  animation: fadeIn 1s, tada 1s, flip 1s;
+  /* animation-delay: 1s; */
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.hand {
+  font-size: 20px;
+  font-weight: 500;
+  display: inline-block;
+  animation: swing 2s infinite;
+}
+
+.button {
+  /* height: 40px; */
+  font-size: 15px;
+  padding: 10px;
+  width: 150px;
+  background-color: transparent;
+  border: 1px solid #25f4ee;
+  color: #25f4ee;
+  margin-top: 40px;
+  transition: 0.5s ease-in-out;
+}
+
+.button:hover {
+  cursor: pointer;
+  color: #1d1d1d;
+  background-color: #25f4ee;
+  transition: 0.5s ease-in-out;
+}
