@@ -1,4 +1,12 @@
-.text {
+html {
+  scroll-behavior: smooth;
+}
+
+.header {
+  height: 100%;
+  position: sticky;
+  top: 20px;
+  padding-right: 30px;
 }
 
 .name {
@@ -56,4 +64,19 @@
   color: #1d1d1d;
   background-color: #25f4ee;
   transition: 0.5s ease-in-out;
+}
+
+.link {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  transition: 0.5s ease-in-out;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.link:hover {
+  color: #25f4ee;
+  animation: swing 1s;
 }
