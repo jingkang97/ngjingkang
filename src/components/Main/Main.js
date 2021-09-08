@@ -13,8 +13,9 @@ const Main = () => {
     return ( 
         <div style={{background:'#1D1D1D', height:'100%'}}>
             <div class="header" >
+            <a class="link" style={{fontSize:'40px', position:'absolute', marginTop:'-10px'}} href=""><span style={{color:'#25F4EE'}}>K</span ><span style={{color:'white', marginLeft:'-23px'}}>K</span><span style={{color:'#FE2C55', marginLeft:'-24px'}}>K</span></a>
+
                 <div style={{display:'flex', width:'100%', flexDirection:'row', justifyContent:'flex-end', color:'white'}}>
-                    <a class="link" href="">JK</a>
                     <nav>
                         <AnchorLink href='#about'><div class="link">About</div> </AnchorLink>
                         <AnchorLink class="link" href='#projects'>Project</AnchorLink>
