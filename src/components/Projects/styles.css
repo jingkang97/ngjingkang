@@ -1,10 +1,124 @@
 .work {
-  height: 100px;
   width: 100%;
-  padding: 30px;
-  background-color: pink;
+  height: 300px;
+  background: linear-gradient(
+    36deg,
+    rgba(37, 244, 238, 1) 0%,
+    rgba(254, 44, 85, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+  margin-top: 30px;
 }
 
+.work-one {
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(
+    36deg,
+    rgba(37, 244, 238, 1) 0%,
+    rgba(254, 44, 85, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.work-two {
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(
+    36deg,
+    rgba(37, 244, 238, 1) 0%,
+    rgba(254, 44, 85, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.work-three {
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(
+    36deg,
+    rgba(37, 244, 238, 1) 0%,
+    rgba(254, 44, 85, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.work-four {
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(
+    36deg,
+    rgba(37, 244, 238, 1) 0%,
+    rgba(254, 44, 85, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.work:hover {
+  width: 100%;
+  height: 300px;
+  border: 2px solid #25f4ee;
+  color: #25f4ee;
+  background: transparent;
+}
+
+.work-one:hover {
+  width: 100%;
+  height: 300px;
+  border: 2px solid #25f4ee;
+  color: #25f4ee;
+  background: transparent;
+}
+
+.work-two:hover {
+  width: 100%;
+  height: 300px;
+  border: 2px solid #25f4ee;
+  color: #25f4ee;
+  background: transparent;
+}
+
+.work-three:hover {
+  width: 100%;
+  height: 300px;
+  border: 2px solid #25f4ee;
+  color: #25f4ee;
+  background: transparent;
+}
+
+.work-four:hover {
+  width: 100%;
+  height: 300px;
+  border: 2px solid #25f4ee;
+  color: #25f4ee;
+  background: transparent;
+}
 .heading {
   animation: bounceIn 1.5s;
 
@@ -21,21 +135,7 @@
   color: white;
   width: 100%;
   /* height: 100px; */
-  /* background-color: red; */
-}
-
-.hide {
-  height: 300px;
-  width: 110%;
-  background-color: transparent;
-  margin-top: -10px;
-  margin-left: -40px;
-  position: relative;
-  z-index: -1;
-}
-
-.hide:hover {
-  background-color: white;
+  background-color: red;
 }
 
 @media only screen and (max-width: 600px) {

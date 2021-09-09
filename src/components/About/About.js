@@ -36,8 +36,8 @@ class About extends React.Component {
                     <Fade up>
                         <p style={{lineHeight:'30px', letterSpacing: '2px'}}>
                             Hello! My name is Jing Kang and I'm a final year Computer engineering student at the National University of Singapore.
-                            I am currently working at Lomotif as a part time web developer intern and I'm working towards 
-                            becoming a full stack web developer. 
+                            I am currently working at Lomotif as a part time web developer intern. I focus mainly 
+                            on frontend development, some UI/UX design and I'm working towards becoming a full stack web developer. 
                         </p>
                         <p style={{lineHeight:'30px', letterSpacing: '2px'}}>
                             Below are some of the technologies I've interacted with:
