@@ -49,13 +49,16 @@ html {
 
 .button {
   /* height: 40px; */
+  animation: fadeInDown 1s;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
   font-size: 15px;
   padding: 10px;
   width: 150px;
   background-color: transparent;
   border: 1px solid #25f4ee;
   color: #25f4ee;
-  margin-top: 40px;
   transition: 0.5s ease-in-out;
 }
 
@@ -66,6 +69,10 @@ html {
   transition: 0.5s ease-in-out;
 }
 
+.button:active {
+  text-decoration: none;
+}
+
 .link {
   font-size: 20px;
   font-weight: bold;
@@ -74,9 +81,58 @@ html {
   transition: 0.5s ease-in-out;
   margin-left: 20px;
   display: inline-block;
+  animation: fadeIn 1s, backInDown 1s;
 }
 
 .link:hover {
   color: #25f4ee;
-  animation: swing 1s;
+  animation: swing 1s, backInDown 1s, fadeIn 1s;
+}
+
+.intro {
+  animation: fadeInUp 1s;
+}
+
+.role {
+  animation: fadeInDown 1s;
+}
+.resume-container {
+  animation: fadeInRight 1s;
+}
+
+.resume {
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 15px;
+  padding: 8px;
+  width: 100px;
+  background-color: transparent;
+  border: 1px solid #25f4ee;
+  color: #25f4ee;
+}
+
+.resume:hover {
+  cursor: pointer;
+  color: #1d1d1d;
+  background-color: #25f4ee;
+  transition: 0.5s ease-in-out;
+}
+
+.resume:active {
+  text-decoration: none;
+}
+
+.animate__animated.animate__flip {
+  --animate-delay: 2s;
+}
+
+.K {
+  /* animation: fadeIn 1s; */
+  /* transition: all 1s ease; */
+  animation: flip 5s infinite ease-in-out;
+}
+
+.K:hover {
+  /* animation: flip 5s infinite ease-in-out, tada 1s; */
+  /* animation: flip 3s infinite ease-in-out; */
 }
