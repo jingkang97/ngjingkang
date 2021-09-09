@@ -141,3 +141,21 @@ html {
   animation: tada 1s; */
   animation: flip 1s infinite ease-in-out;
 }
+
+.connects {
+  animation: fadeInUp 1s;
+  text-decoration: none;
+}
+
+.connect {
+}
+
+.icon {
+  color: white;
+  transition: transform 0.3s ease-in-out;
+}
+
+.icon:hover {
+  color: #25f4ee;
+  transform: translatey(-5px);
+}

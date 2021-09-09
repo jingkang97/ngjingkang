@@ -72,10 +72,10 @@ const Main = () => {
             <section id='contact'>
                 <Contact />
             </section>
-            <div style={{fontSize:'20px', color:'white', position:'fixed', bottom:'0'}}>
-                <div style={{marginLeft:'40px', marginBottom:'20px'}}><FiGithub /></div>
-                <div style={{marginLeft:'40px', marginBottom:'20px'}}><FiLinkedin /></div>
-                <div style={{marginLeft:'40px', marginBottom:'20px'}}><FiInstagram /></div>
+            <div class="connects" style={{fontSize:'20px', color:'white', position:'fixed', bottom:'0'}}>
+                <div style={{marginLeft:'40px', marginBottom:'20px'}} ><a href="https://github.com/jingkang97" target="_blank"><FiGithub class="icon"/></a> </div>
+                <div style={{marginLeft:'40px', marginBottom:'20px'}} ><a href="https://www.linkedin.com/in/ngjingkang/" target="_blank"><FiLinkedin class="icon"/></a> </div>
+                <div style={{marginLeft:'40px', marginBottom:'20px'}} ><a href="https://www.instagram.com/" target="_blank"><FiInstagram class="icon"/></a> </div>
                 <div style={{marginLeft:'50px',borderLeft:'1px solid white', height:'100px'}}></div>
             </div>
             
