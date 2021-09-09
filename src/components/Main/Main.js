@@ -1,10 +1,12 @@
 import './styles.css'
-import "animate.css"
+import "animate.css";
 import About from '../About/About'
 import Projects from '../Projects/Projects'
 import Work from '../Work/Work'
 import Contact from '../Contact/Contact'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+// import ScrollAnimation from 'react-animate-on-scroll';
+
 
 import { FiGithub, FiLinkedin, FiInstagram } from "react-icons/fi";
 
@@ -13,7 +15,6 @@ const Main = () => {
 
     return ( 
         <div style={{background:'#1D1D1D', height:'100%'}}>
-            
             <div class="header" >
                 <a class="link" style={{fontSize:'40px', position:'absolute', marginTop:'-10px'}} href="">
                     <span style={{color:'#25F4EE'}}>K</span ><span style={{color:'white', marginLeft:'-23px'}}>K</span><span style={{color:'#FE2C55', marginLeft:'-24px'}}>K</span>
@@ -26,10 +27,8 @@ const Main = () => {
                         <AnchorLink class="link" href='#work'>Work</AnchorLink>
                         <AnchorLink class="link" href='#contact'>Contact</AnchorLink>
                         <div class="resume-container" ><a class="resume" href="NgJingKang-Resume.pdf" download>Resume</a></div>
-
                     </nav>
                 </div>
-                {/* Header */}
             </div>
             <div>
 
@@ -60,6 +59,14 @@ const Main = () => {
                     <div style={{marginTop:'-30px', display:'flex'}}><div class="K" style={{color:'#FE2C55', animationDelay:'4s'}}>K</div>&emsp;&emsp;<div class="K" style={{color:'white', animationDelay:'4.5s'}}>K</div></div>
                 </div>
             </div>
+            {/* <div style={{fontSize:'100px', color:'white'}}>
+            <ScrollAnimation animateIn="bounceInRight">
+                    About Me
+                </ScrollAnimation>
+
+            </div> */}
+            
+
             <section id="about">
                 <About />
             </section>
@@ -78,8 +85,6 @@ const Main = () => {
                 <div style={{marginLeft:'40px', marginBottom:'20px'}} ><a href="https://www.instagram.com/" target="_blank"><FiInstagram class="icon"/></a> </div>
                 <div style={{marginLeft:'50px',borderLeft:'1px solid white', height:'100px'}}></div>
             </div>
-            
-            
         </div>
      );
 }
