@@ -12,7 +12,7 @@ import './styles.css'
 class About extends React.Component {
   render() {
     return (
-        <div style={{background:'#1D1D1D', color:'white', height:'100vh', position:'relative'}}>
+        <div style={{background:'#1D1D1D', color:'white', height:'100vh', position:'relative', overflow:'hidden'}}>
             <div style={{marginLeft:'20px', fontSize:'30px', color:'#25F4EE', paddingLeft:'70px', paddingTop:'70px', paddingRight:'70px'}}>
             <LightSpeed left>
                 <Jump>
@@ -26,13 +26,13 @@ class About extends React.Component {
                             &nbsp;
                             <div class="heading">M</div>
                             <div class="heading">e</div>
-                            <span><img class="heading" src="jingkang.png" style={{height:'50px', marginBottom:'-10px', marginLeft:'10px'}}/></span>
+                            <span><img class="heading" src="jingkang.png" style={{height:'80px', marginBottom:'-30px', marginLeft:'10px'}}/></span>
                         </h1>
                     </div>
                     
                 </Jump>
             </LightSpeed>
-                <div style={{fontSize:'20px', color:'white'}}>
+                <div style={{fontSize:'20px', color:'white', marginTop:'30px'}}>
                     <Fade up>
                         <p style={{lineHeight:'30px', letterSpacing: '2px'}}>
                             Hello! My name is Jing Kang and I'm a final year Computer engineering student at the National University of Singapore.
@@ -57,7 +57,7 @@ class About extends React.Component {
                 <div class="skill" style={{color:'#25f4ee',   transform: 'rotate(-1deg)', display:'flex', flexDirection:'column'}}><span style={{fontSize:'15px'}}>Redux</span><SiRedux /></div>
             
             </div>
-            <div style={{backgroundColor:'transparent', width:'100%', justifyContent:'space-evenly', height:'100px', display:'flex'}}>
+            <div style={{backgroundColor:'transparent', width:'100%', justifyContent:'space-around', height:'100px', display:'flex'}}>
             <div class="skill" style={{color:'#25f4ee',   transform: 'rotate(5deg)', display:'flex', flexDirection:'column'}}><span style={{fontSize:'15px'}}>HTML</span> <IoLogoHtml5 /></div>
                 <div class="skill" style={{color:'#25f4ee',   transform: 'rotate(-5deg)', display:'flex', flexDirection:'column'}}><span style={{fontSize:'15px'}}>CSS</span><IoLogoCss3 /></div>
                 <div class="skill" style={{color:'#25f4ee',   transform: 'rotate(3deg)', display:'flex', flexDirection:'column'}}><span style={{fontSize:'15px'}}>Javascript</span><IoLogoJavascript /></div>
