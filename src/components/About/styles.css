@@ -1,0 +1,8 @@
+.heading {
+  animation: bounceIn 1.5s;
+
+  display: inline-block;
+}
+.heading:hover {
+  animation: jello 1s;
+}
