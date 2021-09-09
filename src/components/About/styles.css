@@ -15,11 +15,22 @@
   align-items: center;
   padding: 10px;
   color: "#25F4EE";
-  margin-left: 50px;
+  width: 70px;
+  flex-direction: column;
+  /* margin-left: 50px; */
 }
 
 .skills {
-  animation: bannermove 3s linear infinite;
+  width: 200%;
+  padding: 30px;
+  animation: bannermove 10s linear infinite;
+  transform: translate(0, -50%);
+  display: flex;
+  flex-direction: row;
+  margin-top: 150px;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
 }
 
 .skills:hover {
@@ -28,9 +39,11 @@
 
 @keyframes bannermove {
   0% {
-    transform: translate(0, 0);
+    /* transform: translate(0, 0); */
+    left: 0;
   }
   100% {
-    transform: translate(-200%, 0);
+    /* transform: translate(-200%, 0); */
+    left: -100%;
   }
 }
