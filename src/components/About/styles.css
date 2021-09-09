@@ -6,3 +6,31 @@
 .heading:hover {
   animation: jello 1s;
 }
+
+.skill {
+  border: 1px solid #25f4ee;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  color: "#25F4EE";
+  margin-left: 50px;
+}
+
+.skills {
+  animation: bannermove 3s linear infinite;
+}
+
+.skills:hover {
+  animation-play-state: paused;
+}
+
+@keyframes bannermove {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-200%, 0);
+  }
+}
