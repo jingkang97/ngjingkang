@@ -4,7 +4,8 @@ import Jump from 'react-reveal/Jump';
 import LightSpeed from 'react-reveal/LightSpeed';
 import Fade from 'react-reveal/Fade';
 import { Container, Row, Col } from 'react-grid-system';
-
+import { VscGithub } from "react-icons/vsc";
+import {FiYoutube} from "react-icons/fi"
 
 import './styles.css'
 
@@ -44,6 +45,9 @@ class Project extends React.Component {
                 <Row>
                     <Col md={4}>
                     <div class="work">
+                        <div style={{position:'absolute', right:'0', top:'0', marginRight:'15px', marginTop:'15px', fontSize:'25px'}}>
+                            <a href="https://github.com/jingkang97/memories" target="_blank"><div><VscGithub/></div> </a>
+                        </div>
                         <div>
                             PhotoBook
                         </div>
@@ -54,7 +58,12 @@ class Project extends React.Component {
                     </Col>
                     <Col md={4}>
                     <div class="work-one">
-                    <div>
+                        <div style={{position:'absolute', right:'0', top:'0', marginRight:'15px', marginTop:'15px', fontSize:'25px', display:'flex'}}>
+                            <a href="https://github.com/jingkang97/SecretSantas" target="_blank" style={{marginRight:'10px'}}><div><VscGithub/></div> </a>
+                            <a href="https://www.youtube.com/watch?v=8Qy0DonNG6I&t=39s" target="_blank" ><div><FiYoutube/></div> </a>
+
+                        </div>
+                        <div>
                             Secret Santas
                         </div>
                         <div style= {{marginTop:'30px', marginBottom:'30px', fontSize:'15px', letterSpacing:'2px'}}>
@@ -64,7 +73,10 @@ class Project extends React.Component {
                     </Col>
                     <Col md={4}>
                     <div class="work-two">
-                    <div>
+                        <div style={{position:'absolute', right:'0', top:'0', marginRight:'15px', marginTop:'15px', fontSize:'25px'}}>
+                            <a href="https://github.com/jingkang97/Dashboard" target="_blank"><div><VscGithub/></div> </a>
+                        </div>
+                        <div>
                             Dashboard
                         </div>
                         <div style= {{marginTop:'30px', marginBottom:'30px', fontSize:'15px', letterSpacing:'2px'}}>
@@ -76,7 +88,10 @@ class Project extends React.Component {
                 <Row>
                 <Col md={4}>
                     <div class="work-three">
-                    <div>
+                        <div style={{position:'absolute', right:'0', top:'0', marginRight:'15px', marginTop:'15px', fontSize:'25px'}}>
+                            <a href="https://github.com/jingkang97/Kevlar" target="_blank"><div><VscGithub/></div> </a>
+                        </div>
+                        <div>
                             Kevlar
                         </div>
                         <div style= {{marginTop:'30px', marginBottom:'30px', fontSize:'15px', letterSpacing:'2px'}}>

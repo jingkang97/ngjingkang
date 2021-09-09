@@ -9,9 +9,15 @@ import { Container, Row, Col } from 'react-grid-system';
 import './styles.css'
 
 class Work extends React.Component {
+    constructor(){
+        super()
+    }
+    handleChange(){
+        console.log('click')
+    }
   render() {
     return (
-        <div style={{background:'#1D1D1D', color:'white', height:'100%', marginBottom:'50px'}}>
+        <div style={{background:'#1D1D1D', color:'white', height:'100vh', marginBottom:'50px'}}>
             <div style={{marginLeft:'20px', fontSize:'30px', color:'#25F4EE', paddingLeft:'70px', paddingTop:'70px', paddingRight:'70px'}}>
             <div>
             <LightSpeed left>
@@ -43,56 +49,17 @@ class Work extends React.Component {
             
                 
                 <Fade up>
-                <div style={{width:'100%', marginLeft:'-20px', marginTop:'30px'}}>
+                <div style={{width:'100%', height:'400px', backgroundColor:'transparent', marginTop:'30px'}}>
+                    <div style={{width:'100%', display:'flex'}}>
+                        <button class="title" onClick={this.handleChange}>
+                            <span id="txt">Lomotif</span>
+                        </button>
+                        <div style={{width:'70%', backgroundColor:'red', height:'100px'}}></div>
+                    </div>
                     
-                
-                <Container>
-                <Row>
-                    <Col md={4}>
-                    <div class="work">
-                        <div>
-                            PhotoBook
-                        </div>
-                        <div style= {{marginTop:'30px', marginBottom:'30px', fontSize:'15px', letterSpacing:'2px'}}>
-                            React | Material UI | Redux
-                        </div>
-                    </div>
-                    </Col>
-                    <Col md={4}>
-                    <div class="work-one">
-                    <div>
-                            Secret Santas
-                        </div>
-                        <div style= {{marginTop:'30px', marginBottom:'30px', fontSize:'15px', letterSpacing:'2px'}}>
-                            Django | JS | BootStrap
-                        </div>
-                    </div>
-                    </Col>
-                    <Col md={4}>
-                    <div class="work-two">
-                    <div>
-                            Dashboard
-                        </div>
-                        <div style= {{marginTop:'30px', marginBottom:'30px', fontSize:'15px', letterSpacing:'2px'}}>
-                            Django | JS | BootStrap
-                        </div>
-                    </div>
-                    </Col>
-                </Row>
-                <Row>
-                <Col md={4}>
-                    <div class="work-three">
-                    <div>
-                            Kevlar
-                        </div>
-                        <div style= {{marginTop:'30px', marginBottom:'30px', fontSize:'15px', letterSpacing:'2px'}}>
-                            Angular | BootStrap
-                        </div>
-                    </div>
-                    </Col>
 
-                </Row>
-                </Container>
+
+                
                    
                 </div>
                             

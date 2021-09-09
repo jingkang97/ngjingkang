@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+  color: black;
+}
 .work {
   width: 100%;
   height: 300px;
@@ -13,16 +17,18 @@
   color: black;
   font-weight: bold;
   margin-top: 30px;
+  position: relative;
 }
 
 .work-one {
   width: 100%;
   height: 300px;
   background: linear-gradient(
-    36deg,
-    rgba(37, 244, 238, 1) 0%,
-    rgba(254, 44, 85, 1) 100%
+    180deg,
+    rgba(210, 107, 213, 1) 0%,
+    rgba(255, 255, 157, 1) 100%
   );
+
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -30,15 +36,18 @@
   color: black;
   font-weight: bold;
   margin-top: 30px;
+  position: relative;
 }
+
 .work-two {
   width: 100%;
   height: 300px;
   background: linear-gradient(
-    36deg,
-    rgba(37, 244, 238, 1) 0%,
+    6deg,
+    rgba(210, 107, 213, 1) 0%,
     rgba(254, 44, 85, 1) 100%
   );
+
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -46,15 +55,17 @@
   color: black;
   font-weight: bold;
   margin-top: 30px;
+  position: relative;
 }
 .work-three {
   width: 100%;
   height: 300px;
   background: linear-gradient(
-    36deg,
+    276deg,
     rgba(37, 244, 238, 1) 0%,
-    rgba(254, 44, 85, 1) 100%
+    rgba(255, 255, 157, 1) 100%
   );
+
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -62,6 +73,7 @@
   color: black;
   font-weight: bold;
   margin-top: 30px;
+  position: relative;
 }
 .work-four {
   width: 100%;
@@ -86,6 +98,22 @@
   border: 2px solid #25f4ee;
   color: #25f4ee;
   background: transparent;
+}
+
+.work:hover a {
+  color: #25f4ee;
+}
+
+.work-one:hover a {
+  color: #25f4ee;
+}
+
+.work-two:hover a {
+  color: #25f4ee;
+}
+
+.work-three:hover a {
+  color: #25f4ee;
 }
 
 .work-one:hover {
@@ -148,4 +176,9 @@
     height: 100%;
     /* background-color: red; */
   }
+}
+
+.links {
+  text-decoration: none;
+  color: black;
 }

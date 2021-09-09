@@ -11,7 +11,7 @@ import './styles.css'
 class Contact extends React.Component {
   render() {
     return (
-        <div style={{background:'#1D1D1D', color:'white', height:'100vh'}}>
+        <div style={{background:'#1D1D1D', color:'white', height:'100%'}}>
             <div style={{marginLeft:'20px', fontSize:'30px', color:'#25F4EE', paddingLeft:'70px', paddingTop:'70px', paddingRight:'70px'}}>
             <div>
             <LightSpeed left>
@@ -39,8 +39,10 @@ class Contact extends React.Component {
             
                 
                 <Fade up>
-                <div style={{width:'100%', marginLeft:'-20px', marginTop:'30px'}}>
-                    
+                <div style={{width:'100%', marginLeft:'-20px', marginTop:'30px', paddingLeft:'20px', paddingBottom:'100px'}}>
+                    <div>email: ngjingkang97@gmail.com</div>
+                    {/* <div>phone: +65 82183789</div> */}
+
                 
                 </div>
                             
@@ -48,7 +50,10 @@ class Contact extends React.Component {
                         
                         
                         </Fade>
-            
+
+                <div style={{width:'100%', display:'flex', justifyContent:'center', alignItems:'center', fontSize:'15px', paddingBottom:'80px'}}>
+                    Design and built by Ng Jing Kang
+                </div>
 
             </div>
             
