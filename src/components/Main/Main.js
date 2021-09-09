@@ -24,7 +24,7 @@ const Main = () => {
                     <nav style={{display:'flex', flexDirection:'row'}}>
                         <AnchorLink href='#about'><div class="link">About</div> </AnchorLink>
                         <AnchorLink class="link" href='#projects' >Project</AnchorLink>
-                        {/* <AnchorLink class="link" href='#work'>Work</AnchorLink> */}
+                        <AnchorLink class="link" href='#work'>Work</AnchorLink>
                         <AnchorLink class="link" href='#contact'>Contact</AnchorLink>
                         <div class="resume-container" ><a class="resume" href="NgJingKang-Resume.pdf" download>Resume</a></div>
                     </nav>
@@ -73,9 +73,9 @@ const Main = () => {
             <section id='projects'>
                 <Projects />
             </section>
-            {/* <section id='work'>
+            <section id='work'>
                 <Work />
-            </section> */}
+            </section>
             <section id='contact'>
                 <Contact />
             </section>

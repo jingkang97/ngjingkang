@@ -1,4 +1,4 @@
-.title {
+/* .title {
   display: inline-block;
   position: relative;
   overflow: hidden;
@@ -25,4 +25,47 @@
 .title:focus {
   background: rgba(37, 244, 238, 0.2);
   border-left: 2px solid #25f4ee;
+} */
+
+.title {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  padding: 12px;
+  /* background-color: transparent; */
+  height: 30px;
+  font-size: 15px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: #25f4ee;
+  border-left: 5px solid rgba(255, 255, 255, 0.17);
+  cursor: pointer;
+}
+
+.title:hover {
+  background: rgba(37, 244, 238, 0.2);
+}
+
+.title-active {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  padding: 12px;
+  background: rgba(37, 244, 238, 0.2);
+  height: 30px;
+  font-size: 15px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: #25f4ee;
+  border-left: 5px solid #25f4ee;
+}
+
+.enter {
+  animation: fadeInUp 1s;
+}
+
+.enter-thales {
+  animation: fadeInUp 1s;
 }
