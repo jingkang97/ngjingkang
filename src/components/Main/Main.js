@@ -4,14 +4,16 @@ import About from '../About/About'
 import Projects from '../Projects/Projects'
 import Work from '../Work/Work'
 import Contact from '../Contact/Contact'
-
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+
+import { FiGithub, FiLinkedin, FiInstagram } from "react-icons/fi";
 
 
 const Main = () => {
 
     return ( 
         <div style={{background:'#1D1D1D', height:'100%'}}>
+            
             <div class="header" >
                 <a class="link" style={{fontSize:'40px', position:'absolute', marginTop:'-10px'}} href="">
                     <span style={{color:'#25F4EE'}}>K</span ><span style={{color:'white', marginLeft:'-23px'}}>K</span><span style={{color:'#FE2C55', marginLeft:'-24px'}}>K</span>
@@ -70,7 +72,12 @@ const Main = () => {
             <section id='contact'>
                 <Contact />
             </section>
-            
+            <div style={{fontSize:'20px', color:'white', position:'fixed', bottom:'0'}}>
+                <div style={{marginLeft:'40px', marginBottom:'20px'}}><FiGithub /></div>
+                <div style={{marginLeft:'40px', marginBottom:'20px'}}><FiLinkedin /></div>
+                <div style={{marginLeft:'40px', marginBottom:'20px'}}><FiInstagram /></div>
+                <div style={{marginLeft:'50px',borderLeft:'1px solid white', height:'100px'}}></div>
+            </div>
             
             
         </div>

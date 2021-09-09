@@ -3,10 +3,14 @@ html {
 }
 
 .header {
-  height: 100%;
+  position: relative;
+  z-index: 1;
+  /* height: 30px; */
   position: sticky;
   top: 30px;
+  /* padding-top: 30px; */
   padding-right: 30px;
+  /* background-color: #1d1d1d; */
 }
 
 .name {
@@ -133,6 +137,7 @@ html {
 }
 
 .K:hover {
-  /* animation: flip 5s infinite ease-in-out, tada 1s; */
-  /* animation: flip 3s infinite ease-in-out; */
+  /* animation-delay: 0s;
+  animation: tada 1s; */
+  animation: flip 1s infinite ease-in-out;
 }
