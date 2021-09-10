@@ -17,7 +17,17 @@
   color: "#25F4EE";
   width: 70px;
   flex-direction: column;
+  transition: 0.1s ease-in-out;
+
   /* margin-left: 50px; */
+}
+
+.skill:hover {
+  font-weight: bold;
+  background-color: #fe2c55;
+  transition: 0.1s ease-in-out;
+  /* transform: translateY(-30px); */
+  margin-top: -10px;
 }
 
 .skills {

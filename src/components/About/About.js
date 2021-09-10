@@ -12,7 +12,7 @@ import './styles.css'
 class About extends React.Component {
   render() {
     return (
-        <div style={{background:'#1D1D1D', color:'white', height:'100vh', position:'relative', overflow:'hidden'}}>
+        <div style={{background:'#1D1D1D', color:'white', height:'100vh', minHeight:'100%', position:'relative', overflow:'hidden'}}>
             <div style={{marginLeft:'20px', fontSize:'30px', color:'#25F4EE', paddingLeft:'70px', paddingTop:'70px', paddingRight:'70px'}}>
             <LightSpeed left>
                 <Jump>
