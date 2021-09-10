@@ -59,15 +59,14 @@ class Work extends React.Component {
                 <Fade up>
                 <div>
                 <div  class="work-container">
-                    <div style={{width:'20%', display:'flex', display:'flex', flexDirection:'column'}}>
-
+                    <div class="title-container" >
+      
                         <div class={this.state.tab == "lomotif"? "title-active" : "title"}  onClick={this.handleChange}>
                             <span id="txt">Lomotif</span>
                         </div>
                         <div class={this.state.tab == "thales"? "title-active" : "title"}  onClick={this.handleChange}>
                             <span id="txt">Thales</span>
                         </div>
-                        
                     </div>
                     {this.state.tab == 'lomotif' ? 
                     <div class={this.state.tab=='lomotif' ? 'enter' : null} style={{width:'100%', display:'flex', backgroundColor:'transparent', height:'100%', color:'white', fontSize:'15px', paddingTop:'10px', paddingLeft:'20px',display:'flex', flexDirection:'column', letterSpacing:'1px', lineHeight:'30px'}}>

@@ -11,7 +11,13 @@
   height: 80px;
   margin-bottom: -30px;
   margin-left: 10px;
+  animation: bounceIn 1.5s;
 }
+
+.jk:hover {
+  animation: jello 1s;
+}
+
 .overall-about {
   background: #1d1d1d;
   color: white;

@@ -78,3 +78,30 @@
   display: flex;
   flex-direction: row;
 }
+
+.title-container {
+  width: 20%;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+  .work-container {
+    flex-direction: column;
+  }
+  .title {
+    width: 100%;
+  }
+  .title-active {
+    width: 100%;
+  }
+  .title:hover {
+    background-color: transparent;
+  }
+  .title-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+}
