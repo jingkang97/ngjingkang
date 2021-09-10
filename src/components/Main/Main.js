@@ -26,7 +26,7 @@ const Main = () => {
                         <AnchorLink class="link" href='#projects' >Project</AnchorLink>
                         <AnchorLink class="link" href='#work'>Work</AnchorLink>
                         <AnchorLink class="link" href='#contact'>Contact</AnchorLink>
-                        <div class="resume-container" ><a class="resume" href="NgJingKang-Resume.pdf" download>Resume</a></div>
+                        <div class="resume-container" ><a class="resume" href="JingKang_Resume.pdf" download>Resume</a></div>
                     </nav>
                 </div>
             </div>
