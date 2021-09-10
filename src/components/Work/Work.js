@@ -70,7 +70,7 @@ class Work extends React.Component {
                     </div>
                     {this.state.tab == 'lomotif' ? 
                     <div class={this.state.tab=='lomotif' ? 'enter' : null} style={{width:'100%', display:'flex', backgroundColor:'transparent', height:'100%', color:'white', fontSize:'15px', paddingTop:'10px', paddingLeft:'20px',display:'flex', flexDirection:'column', letterSpacing:'1px', lineHeight:'30px'}}>
-                        <div style={{fontWeight:'bold'}}>Web Developer Intern @ <a href="https://lomotif.com" style={{textDecoration:'none', color:'#25f4ee'}}>Lomotif</a></div>
+                        <div style={{fontWeight:'bold'}}>Web Developer Intern @ <a href="https://lomotif.com" style={{textDecoration:'none', color:'#25f4ee'}} target="_blank">Lomotif</a></div>
                         <div>June 2021 - Present</div>
                         <p>
                         <FiPlay style={{marginBottom:'-2px'}}/> Created an internal full stack web application (LomoTool) which increase efficiency/accuracy of data retrieval and database manipulation by 90%
@@ -86,7 +86,7 @@ class Work extends React.Component {
                     </div>
                     : 
                     <div class={this.state.tab=='thales' ? 'enter-thales' : null} style={{width:'100%', display:'flex', backgroundColor:'transparent', height:'100%', color:'white', fontSize:'15px', paddingTop:'10px', paddingLeft:'20px',display:'flex', flexDirection:'column', letterSpacing:'1px', lineHeight:'30px'}}>
-                        <div style={{fontWeight:'bold'}}>Soft Engineer Intern @ <a href="https://thales.com" style={{textDecoration:'none', color:'#25f4ee'}}>Thales</a></div>
+                        <div style={{fontWeight:'bold'}}>Soft Engineer Intern @ <a href="https://thales.com" style={{textDecoration:'none', color:'#25f4ee'}} target="_blank">Thales</a></div>
                         <div>June 2020 - November 2020</div>
                         <p>
                         <FiPlay style={{marginBottom:'-2px'}}/> Participated in technical writing, code development and testing for certain modules/functionalities in the solution     </p>
