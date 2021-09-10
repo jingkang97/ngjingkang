@@ -52,7 +52,7 @@ class Contact extends React.Component {
                         </Fade>
 
                 <div style={{width:'100%', display:'flex', justifyContent:'center', alignItems:'center', fontSize:'15px', paddingBottom:'80px'}}>
-                    Design and built by Ng Jing Kang
+                    Designed and built by Ng Jing Kang
                 </div>
 
             </div>
