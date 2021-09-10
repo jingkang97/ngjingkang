@@ -12,7 +12,7 @@ import './styles.css'
 class Project extends React.Component {
   render() {
     return (
-        <div style={{background:'#1D1D1D', color:'white', height:'100%', marginBottom:'50px'}}>
+        <div class="overall-projects">
             <div style={{marginLeft:'20px', fontSize:'30px', color:'#25F4EE', paddingLeft:'70px', paddingTop:'70px', paddingRight:'70px'}}>
             <div>
             <LightSpeed left>

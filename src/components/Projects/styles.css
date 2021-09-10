@@ -175,6 +175,14 @@ a {
   background-color: red;
 }
 
+.overall-projects {
+  /* margin-top: 250px; */
+  background: #1d1d1d;
+  color: white;
+  height: 100%;
+  margin-bottom: 50px;
+}
+
 @media only screen and (max-width: 600px) {
   .projects {
     display: flex;
@@ -184,6 +192,9 @@ a {
     width: 100%;
     height: 100%;
     /* background-color: red; */
+  }
+  .overall-projects {
+    /* margin-top: 250px; */
   }
 }
 

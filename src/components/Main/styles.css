@@ -2,6 +2,93 @@ html {
   scroll-behavior: smooth;
 }
 
+.overall-main {
+  background: #1d1d1d;
+  height: 100%;
+}
+
+.menu-list {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  z-index: 1;
+  flex-direction: column;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  animation: backInDown 1s;
+  background-color: #fe2c55;
+  padding-top: 50px;
+}
+
+.menu-list-close {
+  animation: backOutUp 1s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  z-index: 1;
+  flex-direction: column;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  background-color: #fe2c55;
+  padding-top: 50px;
+  transition: all 0.3s ease-in-out;
+  visibility: hidden;
+}
+
+.burger {
+  cursor: pointer;
+  color: white;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  margin-right: 30px;
+  font-size: 30px;
+  margin-top: 30px;
+  /* height: 70px; */
+  visibility: hidden;
+  transition: 0.1s ease-in-out;
+  background-color: transparent;
+  border: none;
+}
+
+.burger-clicked {
+  cursor: pointer;
+  color: white;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  margin-right: 30px;
+  font-size: 30px;
+  margin-top: 30px;
+  /* height: 70px; */
+  visibility: hidden;
+  transition: 1s ease-in-out;
+  background-color: transparent;
+  border: none;
+}
+
+.anchorlinks {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  color: white;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow-x: hidden;
+}
+
 .header {
   position: relative;
   z-index: 1;
@@ -88,6 +175,22 @@ html {
   animation: fadeIn 1s, backInDown 1s;
 }
 
+.link-collapse {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  transition: 0.5s ease-in-out;
+  /* margin-left: 20px; */
+  display: inline-block;
+  animation: fadeIn 1s, backInDown 1s;
+}
+
+.link-collapse:hover {
+  color: #25f4ee;
+  animation: swing 1s, backInDown 1s, fadeIn 1s;
+}
+
 .link:hover {
   color: #25f4ee;
   animation: swing 1s, backInDown 1s, fadeIn 1s;
@@ -116,6 +219,23 @@ html {
 }
 
 .resume:hover {
+  cursor: pointer;
+  color: #1d1d1d;
+  background-color: #25f4ee;
+  transition: 0.5s ease-in-out;
+}
+
+.resume-collapse {
+  text-decoration: none;
+  font-size: 15px;
+  padding: 8px;
+  width: 100px;
+  background-color: transparent;
+  border: 1px solid #25f4ee;
+  color: #25f4ee;
+}
+
+.resume-collapse:hover {
   cursor: pointer;
   color: #1d1d1d;
   background-color: #25f4ee;
@@ -158,4 +278,62 @@ html {
 .icon:hover {
   color: #25f4ee;
   transform: translatey(-5px);
+}
+
+.big-K {
+  width: 100%;
+  background-color: transparent;
+  font-size: 100px;
+  animation: fadeInRight 1s;
+  font-weight: bold;
+}
+
+.sub-main {
+  margin: 100px;
+  color: white;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    /* height: 30px; */
+    /* position: sticky; */
+    top: 30px;
+    /* padding-top: 30px; */
+    padding-right: 30px;
+    /* background-color: #1d1d1d; */
+  }
+  .burger {
+    visibility: visible;
+  }
+
+  .main {
+    margin-top: 150px;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    /* height: 90%; */
+  }
+  .sub-main {
+    margin: 50px;
+    /* overflow: hidden; */
+  }
+  .overall-main {
+    overflow-x: hidden;
+  }
+  .anchorlinks {
+    /* animation: fadeOut 1s; */
+    visibility: hidden;
+  }
+
+  .big-K {
+    transform: rotate(90deg);
+    /* overflow-x: hidden; */
+    /* overflow: hidden; */
+    /* transform: translateY(-100px); */
+  }
 }

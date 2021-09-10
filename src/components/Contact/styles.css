@@ -1,0 +1,24 @@
+.overall {
+  background: #1d1d1d;
+  color: white;
+  height: 100%;
+}
+
+.contact {
+  width: 100%;
+  margin-left: -20px;
+  margin-top: 30px;
+  padding-left: 20px;
+  padding-bottom: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .overall {
+    margin-top: 500px;
+
+    /* height: 90%; */
+  }
+  .contact {
+    font-size: 20px;
+  }
+}

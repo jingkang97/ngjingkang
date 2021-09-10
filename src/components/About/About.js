@@ -12,11 +12,11 @@ import './styles.css'
 class About extends React.Component {
   render() {
     return (
-        <div style={{background:'#1D1D1D', color:'white', height:'100vh', minHeight:'100%', position:'relative', overflow:'hidden'}}>
+        <div class="overall-about" >
             <div style={{marginLeft:'20px', fontSize:'30px', color:'#25F4EE', paddingLeft:'70px', paddingTop:'70px', paddingRight:'70px'}}>
             <LightSpeed left>
                 <Jump>
-                    <div style={{display:'flex', flexDirection:'row', alignItems:'center', height:'50px'}}>
+                    <div class="about-title">
                         <h1 >
                             <div class="heading">A</div>
                             <div class="heading">b</div>
@@ -26,7 +26,7 @@ class About extends React.Component {
                             &nbsp;
                             <div class="heading">M</div>
                             <div class="heading">e</div>
-                            <span><img class="heading" src="jingkang.png" style={{height:'80px', marginBottom:'-30px', marginLeft:'10px'}}/></span>
+                            <span><img class="heading" src="jingkang.png" class="jk"/></span>
                         </h1>
                     </div>
                     

@@ -57,7 +57,8 @@ class Work extends React.Component {
             
                 
                 <Fade up>
-                <div  style={{width:'100%', height:'400px', backgroundColor:'transparent', marginTop:'50px', display:'flex', flexDirection:'row'}}>
+                <div>
+                <div  class="work-container">
                     <div style={{width:'20%', display:'flex', display:'flex', flexDirection:'column'}}>
 
                         <div class={this.state.tab == "lomotif"? "title-active" : "title"}  onClick={this.handleChange}>
@@ -101,16 +102,8 @@ class Work extends React.Component {
                     </div>
                     }
                     
-                    
-
-
-                
-                   
                 </div>
-                            
-                            
-                        
-                        
+                </div>
                         </Fade>
             
 

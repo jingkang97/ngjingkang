@@ -7,6 +7,20 @@
   animation: jello 1s;
 }
 
+.jk {
+  height: 80px;
+  margin-bottom: -30px;
+  margin-left: 10px;
+}
+.overall-about {
+  background: #1d1d1d;
+  color: white;
+  height: 100vh;
+  /* height: 100vh; */
+  position: relative;
+  overflow: hidden;
+}
+
 .skill {
   border: 1px solid #25f4ee;
   font-size: 100px;
@@ -48,6 +62,13 @@
   animation-play-state: paused;
 }
 
+.about-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
+}
+
 @keyframes bannermove {
   0% {
     /* transform: translate(0, 0); */
@@ -56,5 +77,21 @@
   100% {
     /* transform: translate(-200%, 0); */
     left: -100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .jk {
+    margin-bottom: 50px;
+  }
+  .overall-about {
+    height: 100%;
+    /* width: 100vw; */
+    overflow: visible;
+    /* overflow: hidden; */
+  }
+  .skills {
+    position: relative;
+    overflow-x: hidden;
   }
 }
