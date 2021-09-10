@@ -40,6 +40,7 @@ html {
 }
 
 .burger {
+  animation: fadeInRight 1s;
   cursor: pointer;
   color: white;
   position: fixed;
