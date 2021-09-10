@@ -46,7 +46,7 @@ html {
   position: fixed;
   z-index: 2;
   top: 0;
-  right: 15px;
+  right: 0px;
   /* margin-right: 30px; */
   font-size: 30px;
   margin-top: 30px;
@@ -266,11 +266,23 @@ html {
 .connects {
   animation: fadeInUp 1s;
   text-decoration: none;
+  font-size: 20px;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  /* left: 0; */
 }
 
 .connect {
+  margin-left: 40px;
+  margin-bottom: 20px;
 }
 
+.line {
+  margin-left: 50px;
+  border-left: 1px solid white;
+  height: 100px;
+}
 .icon {
   color: white;
   transition: transform 0.3s ease-in-out;
@@ -336,5 +348,11 @@ html {
     /* overflow-x: hidden; */
     /* overflow: hidden; */
     /* transform: translateY(-100px); */
+  }
+  .connect {
+    margin-left: 10px;
+  }
+  .line {
+    margin-left: 20px;
   }
 }
