@@ -88,6 +88,7 @@
 
 @media only screen and (max-width: 600px) {
   .work-container {
+    margin-top: 80px;
     flex-direction: column;
   }
   .title {
