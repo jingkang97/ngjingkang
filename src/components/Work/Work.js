@@ -86,7 +86,7 @@ class Work extends React.Component {
                     </div>
                     : 
                     <div class={this.state.tab=='thales' ? 'enter-thales' : null} style={{width:'100%', display:'flex', backgroundColor:'transparent', height:'100%', color:'white', fontSize:'15px', paddingTop:'10px', paddingLeft:'20px',display:'flex', flexDirection:'column', letterSpacing:'1px', lineHeight:'30px'}}>
-                        <div style={{fontWeight:'bold'}}>Soft Engineer Intern @ <a href="https://thales.com" style={{textDecoration:'none', color:'#25f4ee'}} target="_blank">Thales</a></div>
+                        <div style={{fontWeight:'bold'}}>Soft Engineer Intern @ <a href="https://www.thalesgroup.com/en" style={{textDecoration:'none', color:'#25f4ee'}} target="_blank">Thales</a></div>
                         <div>June 2020 - November 2020</div>
                         <p>
                         <FiPlay style={{marginBottom:'-2px'}}/> Participated in technical writing, code development and testing for certain modules/functionalities in the solution     </p>
