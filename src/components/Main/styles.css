@@ -20,7 +20,7 @@ html {
   align-items: center;
   animation: fadeInRight 1s;
   background-color: #fe2c55;
-  padding-top: 50px;
+  /* padding-top: 50px; */
 }
 
 .menu-list-close {
@@ -186,7 +186,7 @@ html {
   color: white;
   transition: 0.5s ease-in-out;
   /* margin-left: 20px; */
-  display: inline-block;
+  /* display: inline-block; */
   animation: fadeIn 1s, backInDown 1s;
 }
 
