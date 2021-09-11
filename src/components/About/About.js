@@ -46,26 +46,26 @@ class About extends React.Component {
                 </div>
             </div>
         <div class="skills">
-            <div style={{backgroundColor:'transparent', width:'100%', justifyContent:'space-around', height:'100px', display:'flex'}}>
-                <div class="skill" style={{color:'#25f4ee',   transform: 'rotate(5deg)', display:'flex', flexDirection:'column'}}><span style={{fontSize:'15px'}}>HTML</span> <IoLogoHtml5 /></div>
-                <div class="skill" style={{color:'#25f4ee',   transform: 'rotate(-5deg)', display:'flex', flexDirection:'column'}}><span style={{fontSize:'15px'}}>CSS</span><IoLogoCss3 /></div>
-                <div class="skill" style={{color:'#25f4ee',   transform: 'rotate(3deg)', display:'flex', flexDirection:'column'}}><span style={{fontSize:'15px'}}>Javascript</span><IoLogoJavascript /></div>
-                <div class="skill" style={{color:'#25f4ee',   transform: 'rotate(5deg)', display:'flex', flexDirection:'column'}}><span style={{fontSize:'15px'}}>React</span><IoLogoReact /></div>
-                <div class="skill" style={{color:'#25f4ee',   transform: 'rotate(-10deg)', display:'flex', flexDirection:'column'}}><span style={{fontSize:'15px'}}>MongoDB</span><DiMongodb /></div>
-                <div class="skill" style={{color:'#25f4ee',   transform: 'rotate(6deg)', display:'flex', flexDirection:'column'}}><span style={{fontSize:'15px'}}>Node.js</span><IoLogoNodejs /></div>
-                <div class="skill" style={{color:'#25f4ee',   transform: 'rotate(-1deg)', display:'flex', flexDirection:'column'}}><span style={{fontSize:'15px'}}>Django</span><DiDjango /></div> 
-                <div class="skill" style={{color:'#25f4ee',   transform: 'rotate(-1deg)', display:'flex', flexDirection:'column'}}><span style={{fontSize:'15px'}}>Redux</span><SiRedux /></div>
+            <div class="set">
+                <div class="skill" style={{color:'#25f4ee',   transform: 'rotate(5deg)', display:'flex', flexDirection:'column'}}><span class="label">HTML</span> <IoLogoHtml5 /></div>
+                <div class="skill" style={{color:'#25f4ee',   transform: 'rotate(-5deg)', display:'flex', flexDirection:'column'}}><span class="label">CSS</span><IoLogoCss3 /></div>
+                <div class="skill" style={{color:'#25f4ee',   transform: 'rotate(3deg)', display:'flex', flexDirection:'column'}}><span  class="label">Javascript</span><IoLogoJavascript /></div>
+                <div class="skill" style={{color:'#25f4ee',   transform: 'rotate(5deg)', display:'flex', flexDirection:'column'}}><span  class="label">React</span><IoLogoReact /></div>
+                <div class="skill" style={{color:'#25f4ee',   transform: 'rotate(-10deg)', display:'flex', flexDirection:'column'}}><span  class="label">MongoDB</span><DiMongodb /></div>
+                <div class="skill" style={{color:'#25f4ee',   transform: 'rotate(6deg)', display:'flex', flexDirection:'column'}}><span  class="label">Node.js</span><IoLogoNodejs /></div>
+                <div class="skill" style={{color:'#25f4ee',   transform: 'rotate(-1deg)', display:'flex', flexDirection:'column'}}><span  class="label">Django</span><DiDjango /></div> 
+                <div class="skill" style={{color:'#25f4ee',   transform: 'rotate(-1deg)', display:'flex', flexDirection:'column'}}><span  class="label">Redux</span><SiRedux /></div>
             
             </div>
-            <div style={{backgroundColor:'transparent', width:'100%', justifyContent:'space-around', height:'100px', display:'flex'}}>
-            <div class="skill" style={{color:'#25f4ee',   transform: 'rotate(5deg)', display:'flex', flexDirection:'column'}}><span style={{fontSize:'15px'}}>HTML</span> <IoLogoHtml5 /></div>
-                <div class="skill" style={{color:'#25f4ee',   transform: 'rotate(-5deg)', display:'flex', flexDirection:'column'}}><span style={{fontSize:'15px'}}>CSS</span><IoLogoCss3 /></div>
-                <div class="skill" style={{color:'#25f4ee',   transform: 'rotate(3deg)', display:'flex', flexDirection:'column'}}><span style={{fontSize:'15px'}}>Javascript</span><IoLogoJavascript /></div>
-                <div class="skill" style={{color:'#25f4ee',   transform: 'rotate(5deg)', display:'flex', flexDirection:'column'}}><span style={{fontSize:'15px'}}>React</span><IoLogoReact /></div>
-                <div class="skill" style={{color:'#25f4ee',   transform: 'rotate(-10deg)', display:'flex', flexDirection:'column'}}><span style={{fontSize:'15px'}}>MongoDB</span><DiMongodb /></div>
-                <div class="skill" style={{color:'#25f4ee',   transform: 'rotate(6deg)', display:'flex', flexDirection:'column'}}><span style={{fontSize:'15px'}}>Node.js</span><IoLogoNodejs /></div>
-                <div class="skill" style={{color:'#25f4ee',   transform: 'rotate(-1deg)', display:'flex', flexDirection:'column'}}><span style={{fontSize:'15px'}}>Django</span><DiDjango /></div> 
-                <div class="skill" style={{color:'#25f4ee',   transform: 'rotate(-1deg)', display:'flex', flexDirection:'column'}}><span style={{fontSize:'15px'}}>Redux</span><SiRedux /></div>
+            <div class="set">
+            <div class="skill" style={{color:'#25f4ee',   transform: 'rotate(5deg)', display:'flex', flexDirection:'column'}}><span  class="label">HTML</span> <IoLogoHtml5 /></div>
+                <div class="skill" style={{color:'#25f4ee',   transform: 'rotate(-5deg)', display:'flex', flexDirection:'column'}}><span  class="label">CSS</span><IoLogoCss3 /></div>
+                <div class="skill" style={{color:'#25f4ee',   transform: 'rotate(3deg)', display:'flex', flexDirection:'column'}}><span  class="label">Javascript</span><IoLogoJavascript /></div>
+                <div class="skill" style={{color:'#25f4ee',   transform: 'rotate(5deg)', display:'flex', flexDirection:'column'}}><span  class="label">React</span><IoLogoReact /></div>
+                <div class="skill" style={{color:'#25f4ee',   transform: 'rotate(-10deg)', display:'flex', flexDirection:'column'}}><span  class="label">MongoDB</span><DiMongodb /></div>
+                <div class="skill" style={{color:'#25f4ee',   transform: 'rotate(6deg)', display:'flex', flexDirection:'column'}}><span  class="label">Node.js</span><IoLogoNodejs /></div>
+                <div class="skill" style={{color:'#25f4ee',   transform: 'rotate(-1deg)', display:'flex', flexDirection:'column'}}><span  class="label">Django</span><DiDjango /></div> 
+                <div class="skill" style={{color:'#25f4ee',   transform: 'rotate(-1deg)', display:'flex', flexDirection:'column'}}><span  class="label">Redux</span><SiRedux /></div>
             </div>
 
         </div>

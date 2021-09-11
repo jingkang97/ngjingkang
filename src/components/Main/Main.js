@@ -1,48 +1,18 @@
 import './styles.css'
 import "animate.css";
-import React, {useState, useRef, useEffect} from 'react';
+import React, {useState} from 'react';
 import About from '../About/About'
 import Projects from '../Projects/Projects'
 import Work from '../Work/Work'
 import Contact from '../Contact/Contact'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import {RiMenu3Fill, RiCloseLine} from "react-icons/ri"
-
 import { FiGithub, FiLinkedin, FiInstagram } from "react-icons/fi";
-
-// import Lottie from 'react-lottie';
-
-
 
 const Main = () => {
 
     const [open, setOpen] = useState(false)
-
-    const openMenu = () =>{ 
-        setOpen(!open)
-
-    }
-    const closeMenu = () => {
-
-        // const menuBtn = document.querySelector('.menu-btn');
-        // menuBtn.classList.remove('open');
-        setOpen(false)
-    }
-
-    useEffect(() => {
-        // const menuBtn = document.querySelector('.menu-btn');
-        // console.log(menuBtn)
-        // menuBtn.addEventListener('click', () => {
-        // if(!open) {
-        //     menuBtn.classList.add('open');
-        //     setOpen(true)
-        // } else {
-        //     menuBtn.classList.remove('open');
-        //     setOpen(false)
-        // }
-        // });
-        
-    },[])
+    const openMenu = () =>{ setOpen(!open)}
+    const closeMenu = () => { setOpen(false)}
 
     return ( 
         <div class="overall-main">
@@ -56,14 +26,8 @@ const Main = () => {
                         <AnchorLink class="link-collapse" href='#work'style={{marginBottom:'20px'}} onClick={closeMenu}>Work</AnchorLink>
                         <AnchorLink class="link-collapse" href='#contact'style={{marginBottom:'20px'}} onClick={closeMenu}>Contact</AnchorLink>
                         <div  style={{marginTop:'30px'}} onClick={closeMenu}><a class="resume-collapse" href="JingKang_Resume_links.pdf" download>Resume</a></div>
-                        {/* <RiCloseLine style={{marginBottom:'10px', fontSize:'50px', cursor: 'pointer'}} onClick={closeMenu}/> */}
                     </div>
-            {/* <div >
-                
-                <button class={open ? "burger-clicked":"burger"} onClick={openMenu}><RiMenu3Fill  />
-                </button>
-                    
-            </div> */}
+            
             <div class="header">
                 <a class="link" style={{fontSize:'40px', position:'absolute', marginTop:'-10px'}} href="">
                     <span style={{color:'#25F4EE'}}>K</span ><span style={{color:'white', marginLeft:'-23px'}}>K</span><span style={{color:'#FE2C55', marginLeft:'-24px'}}>K</span>
@@ -108,14 +72,7 @@ const Main = () => {
                     <div style={{marginTop:'-30px', display:'flex'}}><div class="K" style={{color:'#FE2C55', animationDelay:'4s'}}>K</div>&emsp;&emsp;<div class="K" style={{color:'white', animationDelay:'4.5s'}}>K</div></div>
                 </div>
             </div>
-            {/* <div style={{fontSize:'100px', color:'white'}}>
-            <ScrollAnimation animateIn="bounceInRight">
-                    About Me
-                </ScrollAnimation>
-
-            </div> */}
             
-
             <section id="about">
                 <About />
             </section>

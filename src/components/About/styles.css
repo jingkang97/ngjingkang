@@ -75,6 +75,18 @@
   height: 50px;
 }
 
+.set {
+  background-color: transparent;
+  width: 100%;
+  justify-content: space-around;
+  height: 100px;
+  display: flex;
+}
+
+.label {
+  font-size: 15px;
+}
+
 @keyframes bannermove {
   0% {
     /* transform: translate(0, 0); */
@@ -98,6 +110,35 @@
   }
   .skills {
     position: relative;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
+  }
+  .label {
+    font-size: 0px;
+  }
+  .skill {
+    height: 30px;
+    border: 1px solid #25f4ee;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: "#25F4EE";
+    width: 15px;
+    flex-direction: column;
+    transition: 0.1s ease-in-out;
+
+    /* margin-left: 50px; */
+  }
+  .set {
+    justify-content: space-around;
+  }
+  .skill:hover {
+    font-weight: bold;
+    background-color: #fe2c55;
+    transition: 0.1s ease-in-out;
+    /* transform: translateY(-30px); */
+    margin-top: -10px;
+    margin-bottom: -10px;
   }
 }
